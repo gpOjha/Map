@@ -29,6 +29,11 @@
 </head>
 <body>
     <h1>India Map with States and Capitals</h1>
+    <p>login form</p>
+    <input type="text" placeholder="username"> 
+    <input type="text" placeholder="password">
+    <button>submit</button>
+    <button>forget password</button>
     <div id="india-map">
         <!-- Add placeholders for states and capitals -->
         <div class="state-boundary" style="top: 50px; left: 100px; width: 100px; height: 80px;"></div> <!-- Example State -->
@@ -39,4 +44,3 @@
     <p>Note: The map is illustrative. Ensure to overlay exact coordinates for an accurate representation.</p>
 </body>
 </html>
-
