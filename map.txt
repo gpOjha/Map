@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Map with States and Capitals</title>
+    <style>
+        #india-map {
+            position: relative;
+            width: 600px;
+            height: 700px;
+            background-image: url('india-outline-map.png'); /* Use an India map outline image */
+            background-size: contain;
+            background-repeat: no-repeat;
+            border: 1px solid #ddd;
+        }
+        .state-boundary {
+            position: absolute;
+            border: 2px solid red;
+            pointer-events: none; /* Prevent interaction */
+        }
+        .capital {
+            position: absolute;
+            color: blue;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>India Map with States and Capitals</h1>
+    <div id="india-map">
+        <!-- Add placeholders for states and capitals -->
+        <div class="state-boundary" style="top: 50px; left: 100px; width: 100px; height: 80px;"></div> <!-- Example State -->
+        <div class="capital" style="top: 60px; left: 110px;">New Delhi</div>
+
+        <!-- Add more state boundaries and capitals below -->
+    </div>
+    <p>Note: The map is illustrative. Ensure to overlay exact coordinates for an accurate representation.</p>
+</body>
+</html>
+
